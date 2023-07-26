@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROYAL_MOTORS</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/36fd36d20b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+           <a href="index.html"><h1>Royal_motors</h1></a>
+        </div>
+        <div class="list">
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <div class="menu">
+                <ul>
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href="#about"><li>ABOUT</li></a>
+                    <a href="#contact-us"><li>CONTACT US</li></a>
+                </ul>
+                <a href="signup.html"><button>Sign in</button></a>
+            </div>
+        </div>
+
+    </nav>
+
+    <section class="banner" id="home">
+        <h1>Find best car Here for sale and for rent</h1>
+
+        <!-- <h3 class="main">Free multipurpose Responsive</h3>
+        <h3 class="yellow">Landing Page 2019</h3> -->
+
+        <!-- <a href="#" class="btn">Sign in</a> -->
+
+        <p>Welcome to Royal_motors, where car enthusiasts find their 
+            ultimate driving companion. Explore our exceptional inventory and start your journey towards owning the perfect vehicle today.
+        </p>
+        <a href="#"><button>Read More</button></a>
+    </section>
+
+    <section class="varieties" id="varieties">
+        <h1>VARIETY OF CARS</h1>
+        <p>"Explore an exceptional collection of cars and their prices, 
+            showcasing a range of premium vehicles that are sure to exceed your expectations."</p>
+
+        <div class="cars">
+            <div class="car-box">
+                <figure>
+                    <img src="images/car_img1.png" alt="">
+                </figure>
+                <figcaption>
+                    <h3 class="price">$40,000</h3>
+                    <h3 class="name">Hyundai</h3>
+                    <h4>"Unleash your inner adventurer with this rugged 
+                        yet refined Hyundai car, built to conquer any terrain and turn heads wherever you go."</h4>
+                </figcaption>
+            </div>
+            <div class="car-box">
+                <figure>
+                    <img src="images/car_img2.png" alt="">
+                </figure>
+                <figcaption>
+                    <h3 class="price">$40,000</h3>
+                    <h3 class="name">Audi</h3>
+                    <h4>Unleash your driving passion with this impeccably designed Audi, 
+                        seamlessly merging elegance, power, and cutting-edge technology for an unparalleled automotive experience.</h4>
+                </figcaption>
+            </div>
+            <div class="car-box">
+                <figure>
+                    <img src="images/car_img3.png" alt="">
+                </figure>
+                <figcaption>
+                    <h3 class="price">$40,000</h3>
+                    <h3 class="name">Bmw x5</h3>
+                    <h4>"Experience the pinnacle of luxury and performance with 
+                        the BMW X5, an SUV designed to conquer the road with unparalleled style and grace</h4>
+                </figcaption>
+            </div>
+        </div>
+
+        <div class="cars2">
+            <div class="car-box">
+                <figure>
+                    <img src="images/Volkswagen-PNG-Clipart.png" alt="">
+                </figure>
+                <figcaption>
+                    <h3 class="price">$40,000</h3>
+                    <h3 class="name">Volkswagen</h3>
+                    <h4>Elevate your driving experience with this reliable and 
+                        fuel-efficient Volkswagen, offering a perfect balance of style, comfort, and practicality</h4>
+                </figcaption>
+            </div>
+            <div class="car-box">
+                <figure>
+                    <img src="images/Mazda-PNG.png" alt="">
+                </figure>
+                <figcaption>
+                    <h3 class="price">$40,000</h3>
+                    <h3 class="name">Mazda</h3>
+                    <h4>Experience exhilarating performance and timeless elegance with this 
+                        meticulously crafted Mazda, blending cutting-edge technology with unmatched luxury</h4>
+                </figcaption>
+            </div>
+            <div class="car-box">
+                <figure>
+                    <img src="images/Toyota-Car-PNG-File.png" alt="">
+                </figure>
+                <figcaption>
+                    <h3 class="price">$40,000</h3>
+                    <h3 class="name">Toyota</h3>
+                    <h4>Indulge in the epitome of luxury and power 
+                        with this stunning Toyota, delivering unrivaled performance, exceptional comfort, and iconic design</h4>
+                </figcaption>
+            </div>
+        </div>
+
+        <a href=""><button>See More</button></a>
+    </section>
+
+    <section class="sales_and_rent" id="sales">
+        <div>
+            <h3>Find A Best Car For Sales And Rent</h3>
+            <form action="" class="form">
+                <!-- <label for="car-make">Choose a car:</label> -->
+                <select name="car-make" id="car-make">
+                    <option value="Choose a car make" disabled selected>Choose a car make</option>
+                    <option value="volvo" >Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="audi">Audi</option>
+                    <option value="toyota">Toyota</option>
+                    <option value="hyundai">Hyundai</option>
+                    <option value="bmw">BMW</option>
+                    <option value="mazda">Mazda</option>
+                    <option value="mercedez">Mercedez</option>
+                </select>
+
+                <select name="car_type" id="car_type">
+                    <option value="Choose a car type" disabled selected>Choose a car type</option>
+                    <option value="suv" >SUV</option>
+                    <option value="van">Van</option>
+                    <option value="minibus">Minibus</option>
+                    <option value="sportcar">Sport car</option>
+                    <option value="pickup">Pickup</option>
+                    <option value="cabriolet">Cabriolet</option>
+                    <option value="limousine">Limousine</option>
+                    <option value="micro">Micro</option>
+                    <option value="campervan">Campervan</option>
+                </select>
+
+                <input type="text" placeholder="Search">
+
+                <select name="buy_or_rent" id="buy_or_rent">
+                    <option value="Buy/Rent" disabled selected>Buy or Rent</option>
+                    <option value="Buy">Buy</option>
+                    <option value="Rent">Rent</option>
+                </select>
+
+                <select name="price_range" id="price_range">
+                    <option value="Select price_range" disabled selected>Select price_range</option>
+                    <option value="$5000-$15000">$5000-$15000</option>
+                    <option value="$15000-$25000">$15000-$25000</option>
+                    <option value="$25000-$35000">$25000-$35000</option>
+                    <option value="$35000-$40000">$35000-$40000</option>
+                </select>
+                
+                <button class="form-btn">Find Now</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="about-us-header"><span>ABOUT</span> ROYAL_MOTORS</h1>
+        <!-- <hr> -->
+
+        <div class="about-us">
+            <div class="about-us-1">
+                <img src="images/about.jpg" alt="" class="about-us-1-img">
+                <p>
+                    Welcome to Royal_Motors, where innovation meets elegance on the open road. As a cutting-edge car company, we take pride in crafting vehicles that redefine the driving experience. With a passion for pushing boundaries and a commitment to sustainable technology, we strive to inspire a new era of mobility that's both thrilling and eco-conscious. 
+                    Join us on this exhilarating journey towards the future of driving.
+                </p>
+            </div>
+
+            <div class="about-us-2">
+                <div class="about-us-2-1">
+                    <h2>WHAT WE DO?</h2>
+                    <p>
+                        At Royal_Motors, our core mission is to provide exceptional automotive solutions tailored to your needs. Through our extensive fleet, we offer both sales and rental services, ensuring you find the perfect vehicle for any occasion. 
+                        Whether you seek the thrill of ownership or the convenience of a temporary ride, we've got you covered with our diverse selection of premium cars.
+                    </p>
+                </div>
+
+                <div class="about-us-2-2">
+                    <h2>OUR PRICING</h2>
+                    <p>Our pricing at Royal_Motors is designed to accommodate various budgets and preferences. For vehicle sales, our range starts at an affordable $5,000, going up to $40,000 for top-of-the-line models. 
+                        For those seeking a short-term driving experience, our rental service offers competitive rates at just $500 per hour, allowing you to enjoy luxury on your terms.</p>
+                </div>
+            </div>
+
+            <div class="about-us-3">
+                <div>
+                    <h2>OUR SUPPLIERS</h2>
+                    <p>
+                        At Royal_Motors, we believe in partnering with the best in the industry to deliver excellence to our customers. Our suppliers are carefully selected based on their commitment to quality, reliability, and ethical practices. With established collaborations with leading automotive 
+                        manufacturers and trusted suppliers, we ensure that every vehicle in our fleet meets the highest standards of craftsmanship and performance.
+                    </p>
+                </div>
+                <div class="about-us-3-2">
+                    <h2>BOOKING PAYMENT</h2>
+                    <p>
+                        Booking your dream car at Royal_Motors is a seamless and secure process. To reserve a vehicle for purchase or rental, simply select your preferred model and schedule through our user-friendly online platform. We offer multiple secure payment options, 
+                        providing peace of mind for all transactions, making your journey to driving luxury both convenient and worry-free.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial" id="testimonial">
+        <h1 class="testimonial-header">WHAT OUR CUSTOMER SAYS</h1>
+        <p class="parag">Our customers are very happy with the company and below are few comments about us from them.</p>
+
+        <div class="testimonials">
+            <div class="reviews">
+                "Royal_motors exceeded my expectations with their impeccable service and an impressive fleet of cars. Renting a vehicle for my special occasion was a breeze, and the experience was nothing short of exhilarating. I'll definitely be back for more!."
+                <p><span>~</span>Jane B<span>~</span></p>
+            </div>
+            <div class="reviews">
+                "I couldn't be happier with my purchase from Royal_Motors. The sales team was incredibly knowledgeable and guided me through every step of the process. The quality of the car I bought is outstanding, and I feel confident I made the right choice. Highly recommended!."
+                <p><span>~</span>Lilly R<span>~</span></p>
+            </div>
+            <div class="reviews">"I had an unforgettable road trip experience thanks to Royal_Motors' rental service. The luxury car I drove was in pristine condition and delivered a smooth, unforgettable ride. The team was professional and accommodating, ensuring my journey was nothing short of extraordinary."
+                <p><span>~</span>Gold O<span>~</span></p>
+            </div>
+        </div>
+
+        <button>Learn More</button>
+    </section>
+
+    <section class="contact-us" id="contact-us">
+        <h1>GET IN TOUCH</h1>
+        <p><i class="fa-solid fa-phone"></i></i>Phone: (+1) 4044706787</p>
+        <p><i class="fa-regular fa-envelope"></i>Email: <span class="email">iyanujehovahb@gmail.com</span></p>
+        <p><i class="fa-solid fa-location-dot"></i>Address: Peachtree Street Northeast, Atlanta, Georgia.</p>
+
+        <div class="contact-us-inputs">
+            <div class="contact-us-inputs1">
+                <input type="text" placeholder="YOUR NAME *">
+                <input type="text" placeholder="YOUR EMAIL *">
+                <input type="text" placeholder="YOUR PHONE *">
+            </div>
+            <div class="contact-us-inputs2">
+                <textarea name="message" id="message" cols="45" rows="12" placeholder="MESSAGE..."></textarea>
+            </div>
+        </div>
+        <button>SEND MESSAGE</button>
+    </section>
+
+    <footer>
+        <h1 class="footer_head">ROYAL_MOTORS</h1>
+        <p class="footer-p"><i>...Ride In Royalty</i></p>
+        <div>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p class="rights">&copy 2023 All Rights Reserved by Royal_Motors</p>
+    </footer>
+</body>
+</html>
+
